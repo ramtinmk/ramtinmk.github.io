@@ -511,7 +511,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/ramtin-mahmoudi-6193b51a1/", "_blank");
+          window.open("https://www.linkedin.com/in/ramtin mahmoudi", "_blank");
         },
       },{
         id: 'social-rss',
@@ -526,6 +526,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-telegram',
+        title: 'telegram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://telegram.me/ramtin_mk82", "_blank");
         },
       },{
       id: 'light-theme',
